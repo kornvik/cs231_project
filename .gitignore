@@ -1,2 +1,3 @@
-video_*.mp4
 video/
+*.zip
+.DS_Store
