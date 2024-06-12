@@ -9,17 +9,17 @@ class Custom_EKF:
     def __init__(
         self,
         dt=0.1,
-        m=3000,
-        k=100.0,
-        c=10.0,
-        cr=5.0,
+        m=3168,
+        k=1000000.0,
+        c=5628,
+        cr=3980,
         Q=np.diag([0.1, 0.1, 0.1, 0.1, 0.1, 0.1]),  # Process noise covariance
         R=np.diag([0.1, 0.1, 0.1, 0.1, 0.1, 0.1]),  # Measurement noise covariance
         P=np.diag([1.0, 1.0, 1.0, 1.0, 1.0, 1.0]),  # Initial estimate covariance
         x0=np.array(
             [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
         ),  # Initial state for x, y, z positions and velocities
-        F0=100.0,
+        F0=9390,
         T=1.0,
         outlier_threshold=10,  # Mahalanobis distance threshold for outlier detection
     ):
