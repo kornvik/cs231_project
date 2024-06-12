@@ -1,0 +1,13 @@
+Ground truth (centermeter)
+Scene 1 : 2.5
+Scene 2 : 2.5
+Scene 3 : 2.4
+Scene 4 : 2.0
+Scene 5 : 2.5
+Scene 6 : 2.0
+Scene 7 : 3.0
+Scene 8 : 2.5
+Scene 9 : 2.0
+Scene 10 : 1.5
+Scene 11 : 2.5
+Scene 12 : 2.2
