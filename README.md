@@ -1,6 +1,17 @@
 # Code for Pile Penetration Depth Estimation using 3d CV techniques
 The techniques include classical CV methods such as optical flow, ML related techniques including segmentation and feature point detection using DOPE mode. And lastly kalman filter (WIP).
 
+## Example Results 
+Tracking pile using optical flow and segmentation
+
+![AGV_vUf92t0uZKI2mPAFzYgzRdow9Qu0647VZG2SfxWejsQmsxV574Od4XZwX8o5mJVRM_iP8iadcWA0XoCNXUqHYH9jdXRijMhoXNtu5XJzKeFIxR3h017v4YW8](https://github.com/kornvik/cs231_project/assets/40062331/30bc183f-376c-48a3-aaca-576c65541750)
+
+Tracking pile using DOPE Model (using animated scene from animation.blend)
+
+![AGV_vUcvLTbTQF90UNkQv6EgkiuHD3eV-Zo7ZdP27YNSQacObi857KqVxfEKOCw5ifgcrA5VvvG-YA_Q7vWyGmYHSqD7YVPga0VXveqaKkDowx2jILd00DOpYg9m](https://github.com/kornvik/cs231_project/assets/40062331/6827adcd-2321-4128-bb71-6cde73e48620)
+
+
+
 ## Data source
 
 1. Download you can download video.zip from https://drive.google.com/drive/folders/1buvw2SAH0mHDW_G-bmm7Y2XeSQVAug-c?usp=sharing for pile scene
